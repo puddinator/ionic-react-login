@@ -1,4 +1,15 @@
-body {
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: bold;
+  src: url("./assets/fonts/Lato-Bold.ttf");
+}
+
+* {
   font-family: "Lato" !important;
 }
 
@@ -12,7 +23,7 @@ body {
 
   --ion-color-secondary: #7dc87b;
   --ion-color-secondary-rgb: 125, 200, 123;
-  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast: white;
   --ion-color-secondary-contrast-rgb: 0, 0, 0;
   --ion-color-secondary-shade: #6eb06c;
   --ion-color-secondary-tint: #8ace88;
