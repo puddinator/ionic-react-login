@@ -39,11 +39,12 @@ a:active {
 
 .header {
   flex-grow: 1;
-  align-self: flex-end;
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 0px 30px;
+  width: 80%;
+  max-width: 400px;
 }
 
 .header > * {
@@ -66,7 +67,9 @@ a:active {
 
 .body {
   flex: 2;
-  margin: 0px 30px;
+  align-self: center;
+  width: 80%;
+  max-width: 400px;
 }
 
 form {
